@@ -2,7 +2,7 @@ import { Button } from "./index.js";
 
 const Landing = () => {
     return (
-        <section className={`w-screen h-screen relative bg-[url('/src/assets/images/hero.jpg')] bg-no-repeat bg-center`}>
+        <section className={`w-screen h-screen relative bg-[url('/src/assets/images/hero.jpg')] bg-no-repeat bg-center bg-fixed`}>
             <div className="w-full h-full absolute top-0 left-0 bg-black opacity-80 z-[99]"></div>
 
             <div className="container text-white relative top-1/2 left-0 -translate-y-1/2 z-[100]">
