@@ -17,3 +17,5 @@ export { default as Testimonials } from "./Testimonials";
 export { default as CardTestimonials } from "./CardTestimonials";
 
 export { default as Demo } from "./Demo";
+
+export { default as DemoIFrame } from "./DemoIFrame";
