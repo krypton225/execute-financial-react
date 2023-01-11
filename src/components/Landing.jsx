@@ -1,3 +1,5 @@
+import { Button } from "./index.js";
+
 const Landing = () => {
     return (
         <section className={`w-screen h-screen relative bg-[url('/src/assets/images/hero.jpg')] bg-no-repeat bg-center`}>
@@ -12,9 +14,9 @@ const Landing = () => {
                     <p className="italic">Doesn't come with instructions</p>
                 </div>
 
-                <button className="py-3 border-none rounded-lg text-base md:text-xl font-semibold uppercase transition-all duration-700 hover:opacity-60 bg-primary text-black mt-6 px-12">
+                <Button customStyle="bg-primary text-black mt-6 px-12">
                     free consultation
-                </button>
+                </Button>
             </div>
         </section>
     )
