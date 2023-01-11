@@ -1,4 +1,5 @@
 import { Landing, Navbar, About } from "./components/index";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <Navbar />
       <Landing />
       <About />
+      <Testimonials />
     </div>
   );
 }

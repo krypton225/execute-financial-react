@@ -15,7 +15,7 @@ const About = () => {
 
                     <div className="my-12 text-lg md:text-2xl">
                         <p>
-                            Intense is an International Financial Planning company with offices i n multiple jurisdictions over the world. Working with Intense gives me the ability to advise international expatriates living in the middle east from where I live in USA.
+                            Intense is an International Financial Planning company with offices in multiple jurisdictions over the world. Working with Intense gives me the ability to advise international expatriates living in the middle east from where I live in USA.
                         </p>
 
                         <p className="mt-8 font-semibold italic">
