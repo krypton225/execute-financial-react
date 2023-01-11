@@ -11,3 +11,7 @@ export { default as Button } from "./Button";
 export { default as About } from "./About";
 
 export { default as Title } from "./Title";
+
+export { default as Testimonials } from "./Testimonials";
+
+export { default as CardTestimonials } from "./CardTestimonials";

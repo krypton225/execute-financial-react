@@ -1,5 +1,4 @@
-import { Landing, Navbar, About } from "./components/index";
-import Testimonials from "./components/Testimonials";
+import { Landing, Navbar, About, Testimonials } from "./components/index";
 
 function App() {
   return (
