@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import NavItems from "../data/navItems";
 
-import { Logo } from "./index";
+import { Logo, ItemList } from "./index";
 
 const Navbar = () => {
     const [toggleMenuNavbar, setToggleMenuNavbar] = useState(false);
@@ -17,9 +17,7 @@ const Navbar = () => {
                 <ul className="hidden md:flex items-center">
                     {
                         NavItems.map(({ id, itemText, itemLink }) => (
-                            <li key={id} className="ml-10 capitalize text-lg font-semibold">
-                                <a href={`#${itemLink}`} className="block py-4 transition-all duration-[0.7s] hover:text-primary">{itemText}</a>
-                            </li>
+                            <ItemList key={id} itemLink={itemLink} itemText={itemText} />
                         ))
                     }
                 </ul>
@@ -35,9 +33,7 @@ const Navbar = () => {
             <ul className={`w-screen h-[97%] fixed top-[4rem] ${toggleMenuNavbar ? "left-0" : "-left-[100%]"} md:hidden flex flex-col justify-center items-center bg-black opacity-90 transition-all duration-[1.1s] ease-out`}>
                 {
                     NavItems.map(({ id, itemText, itemLink }) => (
-                        <li key={id} className="w-full my-3 text-center capitalize text-lg font-semibold">
-                            <a href={`#${itemLink}`} className="block py-4 transition-all duration-[0.7s] hover:text-primary">{itemText}</a>
-                        </li>
+                        <ItemList key={id} itemLink={itemLink} itemText={itemText} addStyles={`w-full my-3 text-center`} />
                     ))
                 }
             </ul>
