@@ -26,30 +26,6 @@ body::-webkit-scrollbar-track-piece {
   display: none;
 }
 
-/* section {
-  padding-block: 7rem;
-}
-
-@media (max-width: 640px) {
-  section {
-    padding-block: 6rem;
-  }
-}
-
-@media (max-width: 768px) {
-  section {
-    padding-block: 7rem;
-  }
-}
-
-@media (max-width: 1024px) {
-  section {
-    padding-block: 10rem;
-  }
-}
-
-@media (max-width: 1280px) {
-} */
 section {
   padding-block: 6rem;
 }
