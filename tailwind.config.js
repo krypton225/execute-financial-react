@@ -5,14 +5,15 @@ module.exports = {
   ],
   theme: {
     container: {
-      padding: "1.5rem",
+      padding: "1.3rem",
       center: true,
     },
     extend: {
       colors: {
-        primary: "#F6E137"
+        primary: "#F6E137",
+        secondary: "#518A4A"
       },
     },
   },
-  plugins: [],
+  plugins: ["tailwindcss ,autoprefixer"],
 }

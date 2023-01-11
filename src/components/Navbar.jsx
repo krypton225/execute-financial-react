@@ -10,7 +10,7 @@ const Navbar = () => {
     const onClickOpenMenuHandler = () => setToggleMenuNavbar(prev => !prev);
 
     return (
-        <nav className="w-screen py-2 fixed top-0 left-0 bg-black text-white z-[999]">
+        <nav className="w-screen py-2 px-0 fixed top-0 left-0 bg-black text-white z-[999]">
             <div className="container flex justify-between items-center">
                 <Logo />
 
@@ -30,7 +30,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <ul className={`w-screen h-[97%] fixed top-[4rem] ${toggleMenuNavbar ? "left-0" : "-left-[100%]"} md:hidden flex flex-col justify-center items-center bg-black opacity-[0.99] transition-all duration-[1.1s] ease-out`}>
+            <ul className={`w-screen h-[97%] fixed top-[4rem] ${toggleMenuNavbar ? "left-0" : "-left-[150%]"} md:hidden flex flex-col justify-center items-center bg-black opacity-[0.99] transition-all duration-[1.1s] ease-out`}>
                 {
                     NavItems.map(({ id, itemText, itemLink }) => (
                         <ItemList key={id} itemLink={itemLink} itemText={itemText} addStyles={`w-full my-3 text-center`} />
