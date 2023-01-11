@@ -2,7 +2,7 @@ import { Button, DemoIFrame } from "./index";
 
 const Demo = () => {
     return (
-        <section className="w-screen relative">
+        <section className="w-screen relative" id="demo">
             <div className="container grid grid-cols-1 lg:grid-cols-2 gap-y-12 lg:gap-4">
                 <div className="w-full">
                     <p className="italic capitalize">more than 100 financial planners,</p>

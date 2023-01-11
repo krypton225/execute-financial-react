@@ -4,10 +4,10 @@ import PersonImage from "../assets/images/john-doe.png";
 
 const About = () => {
     return (
-        <section className="w-screen bg-white text-black">
+        <section className="w-screen bg-white text-black" id="about">
             <div className="container grid grid-cols-1 lg:grid-cols-2 items-center gap-y-10 lg:gap-6">
                 <div className="w-[90%] md:w-[60%] lg:w-[70%] mx-auto">
-                    <img src={PersonImage} alt="John Doe" className="w-full object-cover" />
+                    <img src={PersonImage} alt="John Doe" className="w-full object-cover" draggable="false" />
                 </div>
 
                 <div className="w-full">
