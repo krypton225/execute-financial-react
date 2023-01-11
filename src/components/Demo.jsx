@@ -1,9 +1,20 @@
+import { useEffect } from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import { Button, DemoIFrame } from "./index";
 
 const Demo = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 800
+        });
+    }, []);
+
     return (
         <section className="w-screen relative" id="demo">
-            <div className="container grid grid-cols-1 lg:grid-cols-2 gap-y-12 lg:gap-4">
+            <div className="container grid grid-cols-1 lg:grid-cols-2 gap-y-12 lg:gap-4" data-aos="fade-right">
                 <div className="w-full">
                     <p className="italic capitalize">more than 100 financial planners,</p>
 
@@ -18,7 +29,7 @@ const Demo = () => {
                     </Button>
                 </div>
 
-                <DemoIFrame />
+                <DemoIFrame dataAOS={"fade-left"} />
             </div>
         </section>
     )
