@@ -1,4 +1,4 @@
-import { Landing, Navbar, About, Testimonials, Demo } from "./components/index";
+import { Landing, Navbar, About, Testimonials, Demo, Footer } from "./components/index";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <About />
       <Testimonials />
       <Demo />
+      <Footer />
     </div>
   );
 }

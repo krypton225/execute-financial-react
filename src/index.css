@@ -29,3 +29,7 @@ body::-webkit-scrollbar-track-piece {
 section {
   padding-block: 6rem;
 }
+
+footer {
+  padding-block: 1rem;
+}
