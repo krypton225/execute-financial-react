@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .toggle-line {
+    @apply w-full h-[2.6px] md:h-[2.7px] rounded-2xl block bg-white transition-all duration-[0.6s];
+  }
+}
