@@ -6,7 +6,7 @@ const About = () => {
     return (
         <section className="w-screen bg-white text-black">
             <div className="container grid grid-cols-1 lg:grid-cols-2 items-center gap-y-10 lg:gap-6">
-                <div className="w-[70%] mx-auto">
+                <div className="w-[90%] md:w-[60%] lg:w-[70%] mx-auto">
                     <img src={PersonImage} alt="John Doe" className="w-full object-cover" />
                 </div>
 
