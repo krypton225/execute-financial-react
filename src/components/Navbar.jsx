@@ -1,7 +1,8 @@
+import { useState } from "react";
+
 import NavItems from "../data/navItems";
 
-import LogoImage from "../assets/images/logo.png";
-import { useState } from "react";
+import { Logo } from "./index";
 
 const Navbar = () => {
     const [toggleMenuNavbar, setToggleMenuNavbar] = useState(false);
@@ -11,9 +12,7 @@ const Navbar = () => {
     return (
         <nav className="w-screen py-2 fixed top-0 left-0 bg-black text-white z-[999]">
             <div className="container flex justify-between items-center">
-                <div className="w-[9rem] md:w-[13rem]">
-                    <img src={LogoImage} alt="Logo" className="w-full" />
-                </div>
+                <Logo />
 
                 <ul className="hidden md:flex items-center">
                     {
