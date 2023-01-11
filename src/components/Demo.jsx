@@ -29,7 +29,7 @@ const Demo = () => {
                     </Button>
                 </div>
 
-                <DemoIFrame dataAOS={"fade-left"} />
+                <DemoIFrame />
             </div>
         </section>
     )
