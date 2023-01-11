@@ -4,7 +4,7 @@ import TestimonialsData from "../data/testimonials";
 
 const Testimonials = () => {
     return (
-        <section className="w-screen h-screen relative">
+        <section className="w-screen relative">
             <Title>testimonials</Title>
 
             <div className="container mt-24 lg:mt-28 grid grid-cols-1 lg:grid-cols-3 gap-y-12 lg:gap-4">

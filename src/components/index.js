@@ -15,3 +15,5 @@ export { default as Title } from "./Title";
 export { default as Testimonials } from "./Testimonials";
 
 export { default as CardTestimonials } from "./CardTestimonials";
+
+export { default as Demo } from "./Demo";
